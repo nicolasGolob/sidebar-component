@@ -1,9 +1,14 @@
 import './App.css';
-import Sidebar from './components/Siderbar'
+import Sidebar from './components/Sidebar'
 function App() {
   return (
     <div className="App">
-      <Sidebar/>
+    <Sidebar width={300} height={"100vh"}>
+          <h1>Home</h1>
+          <h1>Story</h1>
+          <h1>About</h1>
+          <h1>Contact</h1>
+        </Sidebar>
     </div>
   );
 }
