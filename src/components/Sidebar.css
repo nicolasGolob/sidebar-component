@@ -4,14 +4,20 @@
     flex-direction: column;
     border-right: 1px solid;
     border-radius: 0;
-    color: rgb(204, 204, 204);
-    border-color: rgba(64, 105, 194, 0.693);
-    background-color: rgb(50, 93, 209);
+    border-color: rgba(81, 133, 243, 0.693);
+    background-color:  #4267B2;
     transition: 1s ease;
 }
 h1{
-    padding: 1.3rem 1.2rem ;
-    font-size: 2rem;
+    padding: 1rem 1.2rem ;
+    font-size: 1.8rem;
+    color: #f5f5f5;
+    transition: 1s ease-out;
+}
+h1:hover{
+    cursor: pointer;
+    color: #858585;
+    transition: 1s ease-out;
 }
 .toggle-sidebar {
     height: 7rem;
@@ -19,7 +25,7 @@ h1{
     border-top-right-radius: 10rem;
     border-bottom-right-radius: 9rem;
     position: absolute;
-    background-color: rgb(91, 129, 255);
+    background-color: #4267B2;
     border-color: rgba(17, 17, 17, 0.693);
     border-left: 0;
     z-index: 1;
